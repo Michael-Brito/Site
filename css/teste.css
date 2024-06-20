@@ -1,0 +1,179 @@
+.semespaço{
+    padding: 20px;
+}
+.bocarra{
+    display:grid; 
+    border: 2px solid rgb(3, 181, 221);
+  width: 250px;
+  height: 250px;
+  position: absolute;
+    left: 60%;
+}
+.pai{
+    text-align: center;
+
+}
+.vertical{
+    vertical-align: middle ;
+    text-align: left;
+}
+.justificar-direita{
+    justify-self: right;
+}
+.kiriangrid{
+    grid-template-columns: auto auto;
+    display:grid;
+}
+.pericias{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    }
+    .phinx{
+    
+    width: auto;
+    height:after auto;
+    }
+    .phinxname{font-size: 1.5em;
+    font-weight: bold;}
+    
+    
+    
+    .valkname{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: purple;
+    }
+    
+    
+    .bigphinx-grid{
+    padding-right: 208px;
+    grid-template-columns: auto auto;
+    display: grid;
+    
+    
+    
+    }
+    
+    .phinx-grid{
+    align-items: center;
+    padding-left:10 px;
+    
+    
+    
+    }
+    
+    .valk-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    }
+    .valk-item{
+    
+    
+      padding: 1px;
+      font-size: 15px;
+      text-align: left;
+    }
+    
+    .margin{
+    float: right;
+    margin-right: 50px;
+    }
+    #valk {
+    float: right;
+    }
+    .clear {
+    clear: both;}
+    .right-title-container {
+        align-self: flex-start; 
+        width: 100%;  
+        text-align: right;
+        margin-left: -500px;
+    }
+    .right{
+        float:right;}
+    .left{
+        float:left;}
+    
+    table.atributo{
+        border: 2px solid black;
+        border-radius: 10px;
+    float:right;
+    }
+    
+    table.atributo tr{
+    border: 2px solid black;
+        border-radius: 10px;
+    }
+    table.atributo th{
+    border: 2px solid black;
+        border-radius: 10px;
+    }
+    table.status {
+    border: 2px solid black;
+    float:left;}
+    
+    table.status th{
+    border: 2px solid black;
+        
+    }
+    table.status tr{
+    border: 2px solid black;
+    }
+    
+    table.pericias {
+        height: 100px;
+        width: 500px;
+    
+    float:left;}
+    
+    table.pericias th{
+        box-sizing: auto;
+    border: 2px solid rgb(0, 0, 0);
+    
+    }
+    table.pericias tr{
+    border: 2px solid rgb(0, 0, 0);
+    }
+    table.raça {
+    vertical-align: middle ;
+    text-align: left;
+    height: 250px;
+        
+
+    }
+    
+    table.raça th{
+        box-sizing: auto;
+   
+    
+    height: 40px;
+    }
+    table.raça tr{
+    border: 2px solid rgb(8, 2, 54);
+    }
+    
+        
+    #tabelalutador{
+    
+    position: absolute;
+    bottom: -300;
+    right: 200;
+    }
+    #ImSticky {
+      position: fixed;
+      bottom: -100;
+      right: 200;
+    }
+    form.força {
+        width: 50%; 
+        padding: 5px;
+        border: none; 
+        background-color: transparent;
+    }
+    
+    /* Estilo para os campos de entrada do formulário */
+    form.força input[type="text"] {
+        width: 100px;
+        box-sizing: border-box;
+    }

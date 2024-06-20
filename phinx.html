@@ -1,0 +1,350 @@
+<html>
+
+<head>
+
+
+<title> Phinx é fofo. </title>
+<link href="css/teste.css" rel="stylesheet"/>
+<link href="css/javas.css" rel="stylesheet"/>
+
+</head>
+
+
+<body>
+  <p id="demo"></p>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+const button2 = document.querySelector('.button2');
+ const button1 = document.querySelector('.button1');
+
+
+const specificTable = document.querySelector('.atributo');
+
+const allRows = specificTable.querySelectorAll('tr');
+
+const specificHeaderRow = allRows[2];
+
+const thElements = specificHeaderRow.querySelectorAll('th');
+
+const referenceElement = thElements[0];
+
+referenceElement.insertBefore(button2, referenceElement.firstChild);
+referenceElement.insertBefore(button1, referenceElement.thirdChild);
+    });
+    var number = 1;
+   function plus(){
+    var count = document.getElementById('count')
+   number++;
+   count.textContent = number.toString()
+  }
+  </script>
+  <script>
+    
+   function minus(){
+    var count = document.getElementById('count')
+   number--;
+   count.textContent = number.toString()
+  }
+
+  </script>
+	 
+   <div>
+    <span id="count">1</span>
+  </div>
+  
+  <div>
+    <button onclick="plusOne()">
+      +
+    </button>
+    <button onclick="minus()">
+      -
+    </button>
+  </div>
+
+<!--<img id="tabelalutador" src="img/lutador.png"/>-->
+
+<body background=
+"https://i.pinimg.com/originals/4d/9b/cd/4d9bcdbd007e5f5305105b0039d65c17.jpg" 
+      style="background-repeat: no-repeat;"> 
+      <div align="center"><h1>Tormenta 20 Kirian </h1> </div>
+<div class="kiriangrid">
+  <div class="justificar-direita"><img src="img/kirian.png" alt="Kirian" title= "historia" width = "160" height="250" usemap="#historiamap" ></div>
+<map name= "historiamap"> <area shape="rect" coords="4,3,158,245" href="kirian.html"</map>
+  <table class="raça">
+    <tr>
+      <th>Raça: Lefou
+  
+      </th>
+    </tr>
+    <tr>
+      <th>Origem: Pivete
+        
+      </th>
+    </tr>
+  </table>    
+</div>
+
+<map name= "istoriamap">
+<area shape="rect" coords="1998,11,0,1978" href="Valkaria.html"
+</map>
+<div class="pai">
+  <table class = "status"width="50%">
+    <tr> 
+	      <th colspan="6"><h2>Status</h2></th>
+    </tr>
+    <tr>
+	      <th colspan="3"><p style ="color:rgb(255, 0, 0)"> Pontos de vida</th>
+	<th colspan="3"><p style ="color:blue"> Pontos de mana</th>
+</tr>
+  <form>
+<tr>
+	<th>
+    <input type="text" id="vmax" name="vmax" value="vmax"><br>36 </th>
+	<th> 36 </th>
+	<th> 0 </th>
+        <th> 9 </th>
+	<th> 9 </th>
+	<th> 0 </th>
+</tr>
+  </form>
+<tr> 
+	<th> Máximo </th>
+	<th> Atual </th>
+	<th> Temporário </th>
+	<th> Máximo </th>
+	<th> Atual </th>
+	<th> Temporário </th>
+</tr>
+
+</table>
+</div>
+
+<table class="atributo" width="50%">
+  <tr>
+    <th colspan="6">
+      <h2>Atributos</h2>
+    </th>
+  </tr>
+  <tr>
+    <th><button class="button2" onclick="minus()">-1</button> FOR  <button class="button1" onclick="plus()">+1</button></th>
+    <th> DES </th>
+    <th> CON </th>
+    <th> INT </th>
+    <th> SAB </th>
+    <th> CAR </th>
+  </tr>
+  <tr>
+    <th><form class="força">
+      <input type="Força" id="força" name="força" value="força" width="1px">
+    </form></th>
+    <th>3</th>
+    <th>2</th>
+    <th>0</th>
+    <th>0</th>
+    <th>-2</th>
+  </tr>
+</table>
+<div class="clear"></div>
+
+
+<div class="pericias">
+<div class="valk-item">
+<p><h2><p style ="color:red">Poderes da Tormenta</h2></p>     
+<strong>Empunhadura rubra:</strong> Você pode gastar 1 PM para cobrir suas mãos com 
+uma carapaça rubra.<br> Até o final da cena, você recebe 
++1 em Luta. Este bônus aumenta em +1 para cada 
+dois outros<br> poderes da Tormenta que você possui.
+
+<p><strong>Corpo aberrante:</strong> Crostas vermelhas em várias partes de seu corpo 
+tornam seus ataques mais perigosos. <br>Seu dano desarmado aumenta em um passo, mais um passo para 
+cada quatro outros poderes da Tormenta<br> que você 
+possui. Pré-requisito: outro poder da Tormenta.</p>
+<div class="bocarra">
+<img src="img/bocarra.png" width="250" height="250"/>O maior inimigo do Kirian
+
+</div>
+	
+<p><strong>Anatomia Insana:</strong> Você tem 25% de chance (resultado “1” em 1d4) 
+de ignorar o dano adicional de um acerto<br> crítico ou 
+ataque furtivo. A chance aumenta em +25% para cada 
+dois outros poderes da Tormenta que você possui.</p>
+
+<p><strong>Visco Rubro:</strong> Você pode gastar 1 PM para expelir um líquido 
+grosso e corrosivo. Até o final da cena, você recebe<br>
++1 nas rolagens de dano corpo a corpo. Este bônus 
+aumenta em +1 para cada dois outros poderes da 
+Tormenta que<br> você possui.</p>
+
+
+<p><strong>Legião Aberrante:</strong> Seu corpo se transforma em uma massa de insetos 
+rubros. Você pode atravessar qualquer<br> espaço por onde 
+seja possível passar uma moeda (mas considera esses 
+espaços como terreno difícil) e recebe<br> +1 em testes 
+contra manobras de combate e de resistência contra 
+efeitos que tenham você como alvo<br> (mas não efeitos de 
+área). Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.<br> Pré-requisito:
+Anatomia Insana, três outros poderes da Tormenta.</p>
+
+<p><strong>Pele Corrompida:</strong> Sua carne foi mesclada à matéria vermelha. Você 
+recebe redução de ácido, eletricidade,<br> fogo, frio, luz 
+e trevas 2. Esta RD aumenta em +2 para cada dois 
+outros poderes da Tormenta que você possui.</p>
+<p><strong>Mãos Membranosas:</strong> Você recebe +1 em Atletismo, Fortitude e testes 
+de agarrar. Este bônus aumenta em +1 para<br> cada 
+dois outros poderes da Tormenta que você possui.</p>
+	</div>
+<div class="pericias">
+
+<table class = "pericias" width>
+<tr> 
+	<th colspan="7"><h2>Pericias Treinadas</h2></th>
+</tr>
+<tr>
+	<th colspan="7"> Acrobacia,
+	 Atletismo,
+	 Fortitude,
+	 Furtividade,
+	 Iniciativa,
+	 Luta,
+	 Reflexos.</th>
+</tr>
+
+
+
+</table>
+</div>
+</div>
+	<div>
+
+
+<p><h2><strong><p style="color:purple"> Poderes de Lutador </strong></h2>
+
+<div class="valk-container">
+<div class="valk-item"> 
+
+<p><strong>Golpe Relâmpago:</strong> Quando usa a ação agredir 
+para fazer um ataque desarmado, você pode gastar 1 
+PM para realizar<br> um ataque desarmado adicional.</p>
+
+<p><strong>Casca Grossa:</strong> No 3º nível, você soma sua 
+Constituição na Defesa, limitado pelo seu nível e 
+apenas se não estiver<br> usando armadura pesada. 
+Além disso, no 7º nível, e a cada quatro níveis, você 
+recebe +1 na Defesa.</p>
+
+<p><strong>Golpe Imprudente:</strong> Quando usa Golpe Relâmpago, você pode atacar de forma impulsiva. Se fizer 
+isso, seus ataques<br> desarmados recebem um dado de 
+dano extra do mesmo tipo (por exemplo, se o seu 
+dano é 2d6, você causa 3d6), mas<br> você sofre –5 na 
+Defesa até o início de seu próximo turno.</p>
+
+<p><strong>Até Acertar:</strong>Se você errar um ataque desarmado, recebe um bônus cumulativo de +2 em 
+testes de ataque e rolagens<br> de dano desarmado 
+contra o mesmo oponente. Os bônus terminam 
+quando você acertar um ataque ou no fim da cena,<br> 
+o que acontecer primeiro.</p>
+
+<p><strong>Punhos de Adamante:</strong> Seus ataques desarmados 
+ignoram 10 pontos de redução de dano do alvo, se 
+houver.<br> Pré-requisito: 8º nível de lutador.</p>
+
+<p><strong>Rasteira:</strong> Quando faz um ataque desarmado 
+contra uma criatura até uma categoria de tamanho 
+maior que a sua, você<br> pode gastar 2 PM. Se fizer isso 
+e acertar o ataque, a criatura fica caída.</p>
+
+<p><strong>Sarado:</strong> Você soma sua Força no seu total de 
+pontos de vida e em Fortitude. Você pode usar Força 
+em vez de Carisma<br> em testes de Diplomacia com 
+pessoas que se atraiam por físicos bem definidos. 
+Pré-requisito: For 3.</p>
+<p><strong>Trincado:</strong> Esculpido à exaustão, seu corpo se 
+tornou uma máquina. Você soma sua Constituição 
+nas rolagens de dano<br> desarmado. Pré-requisitos: Con 
+3, Sarado, 10º nível de lutador.</p>
+ 
+<p><strong>Trocação:</strong> Quando você começa a bater, não 
+para mais. Ao acertar um ataque desarmado, pode 
+fazer outro ataque<br> desarmado contra o mesmo alvo, 
+pagando uma quantidade de PM igual à quantidade 
+de ataques já realizados no turno.<br> Ou seja, pode fazer 
+o primeiro ataque extra gastando 1 PM, um segundo 
+ataque extra gastando mais 2 PM e assim por<br> diante, 
+até errar um ataque ou não ter mais pontos de mana. 
+Pré-requisito: 6º nível de lutador.</p> 
+
+<p><strong>Meditação de ataque:</strong> Você pode gastar uma ação de movimento e 1 PM para 
+meditar, concentrando sua mente no ataque.<br> Seu próximo 
+ataque desarmado feito nesta cena tem o dano aumentado em 
+um passo e causa dano dobrado contra objetos.<br> Pré-requisito: 
+treinado em Misticismo.</p>
+
+
+
+
+</div>
+<div class="valk-container"> 
+<div class="valk-item"> <strong>Divindade:</strong><span class="valkname"> Valkaria</span>
+<div class="valk-item"><img src="img/valkaria.png"alt="Deusa valkaria" title="História" width = "250" height="250"alt="istoria" usemap="#istoriamap">
+<div><strong> Crenças e Objetivos:</strong> Praticar o otimismo,<br> 
+a evolução, a rebeldia. Desafiar limites, almejar<br> o 
+impossível. Combater o mal, a opressão e a tirania.<br> 
+Proteger a liberdade. Aceitar o novo e diferente e<br> 
+adaptar-se a ele. Demonstrar ambição, paixão e <br>
+coragem. Desfrutar e amar a vida </div>
+<div><strong> Obrigações & Restrições:</strong> Valkaria odeia 
+o conformismo.<br> Seus devotos são proibidos de 
+fixar moradia em um mesmo lugar,<br> não podendo 
+permanecer mais de 2d10+10 dias na mesma cidade<br> (ou vila, aldeia, povoado...) ou 1d4+2 meses no 
+mesmo reino. Devotos<br> de Valkaria também são proibidos de se 
+casar ou formar qualquer união estável. </div>
+</div>
+
+</div>
+
+	</div>
+</div>
+<div class="bigphinx-grid">
+<div class="valk-item">
+<h2><p style="color:green"> Poderes de combate </h2>
+
+<p><strong>Foco em Arma:</strong> Escolha uma arma. Você recebe +2 em testes de 
+ataque com essa arma. Você pode escolher este poder<br> 
+outras vezes para armas diferentes. Pré-requisito:
+proficiência com a arma.</p>
+<p><strong>Ataque Poderoso:</strong> Sempre que faz um ataque corpo a corpo, você 
+pode sofrer –2 no teste de ataque para receber +5 na<br> 
+rolagem de dano. Pré-requisito: For 1. </p>
+
+<p><strong>Vitalidade:</strong>Você recebe +1 
+PV por nível de personagem e 
++2 em Fortitude. Pré-requisito:
+Con 1.</p>
+
+<h2><p style="color:blue"> Poderes de destino </h2>
+<p><strong>Sortudo:</strong> Você pode gastar 3 PM para rolar novamente um 
+teste recém realizado (apenas uma vez por teste).</p>
+
+<h2><p style="color:DarkRed"> Poderes concedidos </h2>
+<p><strong>Armas da ambição:</strong> Você recebe +1 em testes de ataque e na margem 
+de ameaça com armas nas quais é proficiente.</p>
+        
+</div>
+<div class="phinx-grid">
+<div class="valk-item"><strong>Pet:</strong><span class="phinxname"> Phinx</span></div>
+<div class="valk-item"><img src="img/phinx.png" width = "250" height="250"></div>
+<div class="valk-item">Gato do Kirian, The Cutest of Them All</div>
+	</div>
+	</div>
+</div>
+
+
+
+
+<nav>
+<a href="https://www.youtube.com/watch?v=0CdMqJ9Lidg&ab_channel=%D1%83%D0%BA%D1%86%D1%84%D0%BA%D1%83%D0%B2%D0%B0%D1%83%D0%BA%D0%90%2C">SoundTrack da Tormenta</a>
+</nav>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.button1{
+    transition-duration: 0.4s;
+    background-color: blue;
+    color: rgb(20, 220, 43);
+    cursor: pointer;
+    margin-left: 15px;
+}
+.button1:hover{
+    background-color: chocolate;
+    color: black;
+}
+.button2{
+    background-color: aqua;
+    color: azure;
+    margin-right: 15px;
+}
